@@ -132,7 +132,8 @@ Any direct DOM manipulation is considered a side effect, right? So let's use the
   -Import and set up your effect hook.
   - Inside it, check to see if the value from `useLocalStorage` is true or false.
   - If it's true, add the class `dark-mode` to the `body` element.
-  - If it's false, remove the class from the `body` element. (If you don't quite remember how to do this from ages and ages ago,
+  - If it's false, remove the class from the `body` element. (If you don't quite remember how to do this 
+  from ages and ages ago,
    Google will be your friend here 😉)
 
   - We don't want this effect to run every time anything in the component changes, right? Think about what piece of data 
